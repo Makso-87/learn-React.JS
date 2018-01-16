@@ -4,6 +4,7 @@
   "description": "learning project",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/Makso-87/learn-React.JS/issues"
   },
-  "homepage": "https://github.com/Makso-87/learn-React.JS#readme"
+  "homepage": "https://github.com/Makso-87/learn-React.JS#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "webpack": "^3.10.0"
+  }
 }
