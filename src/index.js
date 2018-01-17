@@ -1,5 +1,6 @@
 var $ = require('jquery');
 var str = require('./constant');
+require('./less');
 
 var App = function() {
     this.met = function() {
